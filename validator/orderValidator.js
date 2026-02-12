@@ -7,5 +7,8 @@ export const AddorderSchema = Joi.object({
         email: Joi.string().email().required(),
         address: Joi.string().min(10).required()
     }).required(),
+    cartId: Joi.string().required().messages({
+        'string.empty': 'Cart ID is required to place an order'
+    }),
     status: Joi.string().valid("pending", "completed", "cancelled").default("pending")
 });
