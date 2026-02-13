@@ -41,3 +41,4 @@ Handles the catalog of items available for purchase.
 }
 
 ```
+.h
