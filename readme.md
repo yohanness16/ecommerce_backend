@@ -1,4 +1,4 @@
-# GDG Store Management System
+# chebude store Management System
 
  express.js web application for managing products, shopping carts, and orders. Built with Express, MongoDB, and EJS.
 
