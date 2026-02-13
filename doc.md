@@ -138,7 +138,7 @@ Allows users to manage a temporary shopping basket before placing an order.
     { "quantity": 5 }
 ```
 
-### 3. Order Processing
+### 3. Order 
 
 Handles the final checkout, stock validation, and order tracking.
 
